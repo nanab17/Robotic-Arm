@@ -1,0 +1,3 @@
+# Instructions to Codex and other coding agents
+Read README.md, docs/02_AI_CONTEXT.md, docs/03_DECISIONS.md and docs/04_INTERFACES.md before changes.
+Never treat proposal as approval. Confirm relevant GitHub Issue, owner, affected modules and interface before modifying code. Work only inside assigned scope. Do not change telemetry names/units, motor pinouts, driver current limits or physical dimensions without a documented team decision. Every change must have a test and an explicit unverified-items list. Safety: no live rewiring, stepper hot-plugging, servo power from ESP32 or powered motor tests without a reviewed hardware stop arrangement. Use simulated telemetry for early software tests. Do not claim code is working before it is run and verified.
